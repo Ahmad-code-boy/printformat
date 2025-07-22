@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-22 17:42:06.673735",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "average_values_unit",
+  "reference_standard",
+  "error",
+  "exp_uncertainty"
+ ],
+ "fields": [
+  {
+   "fieldname": "average_values_unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Average Values Unit "
+  },
+  {
+   "fieldname": "reference_standard",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reference Standard"
+  },
+  {
+   "fieldname": "error",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Error"
+  },
+  {
+   "fieldname": "exp_uncertainty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exp. Uncertainty"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-22 18:38:30.210547",
+ "modified_by": "Administrator",
+ "module": "Saeed",
+ "name": "Average Values",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

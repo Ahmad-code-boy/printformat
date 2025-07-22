@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CAL-REQ-{####}",
+ "creation": "2025-07-20 05:09:51.592993",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "job_no",
+  "customer",
+  "equipment",
+  "equipment_condition",
+  "requested_date",
+  "request_receipt",
+  "certificate_number",
+  "traceability",
+  "column_break_ygxa",
+  "calibration_type",
+  "priority",
+  "status",
+  "assigned_to",
+  "calibration_on",
+  "calibration_due_date",
+  "calibration_method",
+  "section_break_jxfu",
+  "select_volt",
+  "section_break_ixyt",
+  "table_zggc",
+  "section_break_zksq",
+  "resistance"
+ ],
+ "fields": [
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Link",
+   "label": "Equipment",
+   "options": "Instrument"
+  },
+  {
+   "fieldname": "equipment_condition",
+   "fieldtype": "Select",
+   "label": "Equipment Condition",
+   "options": "Working satisfactory upon receipt\nNot working satisfactory upon receipt\nCalibration done without relevant specification\nCalibration done after adjustment / repair\nFound to meet specification upon receipt"
+  },
+  {
+   "fieldname": "requested_date",
+   "fieldtype": "Date",
+   "label": "Requested Date"
+  },
+  {
+   "fieldname": "request_receipt",
+   "fieldtype": "Select",
+   "label": "Request Receipt",
+   "options": "\nVerbal\nEmail\nPO"
+  },
+  {
+   "fieldname": "certificate_number",
+   "fieldtype": "Data",
+   "label": "Certificate Number"
+  },
+  {
+   "fieldname": "traceability",
+   "fieldtype": "HTML",
+   "label": "Traceability",
+   "options": "The Standards and Equipment used for the calibration by LINKS 2000 (Pvt) Ltd have an unbroken chain of calibration\ntraceability to the national standards maintained by NMIP/PCSIR, which are further traceable to international standards of\nmeasurement in accordance with the metrology rule/practices"
+  },
+  {
+   "fieldname": "column_break_ygxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calibration_type",
+   "fieldtype": "Select",
+   "label": "Calibration Type",
+   "options": "\nIn-Lab\nOn-Site"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "\nLow\nMedium\nHigh"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nProgress\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "calibration_on",
+   "fieldtype": "Datetime",
+   "label": "Calibration on"
+  },
+  {
+   "fieldname": "calibration_due_date",
+   "fieldtype": "Datetime",
+   "label": "Calibration Due Date"
+  },
+  {
+   "fieldname": "calibration_method",
+   "fieldtype": "Link",
+   "label": "Calibration Method",
+   "options": "Calibration Method"
+  },
+  {
+   "fieldname": "section_break_jxfu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_volt",
+   "fieldtype": "Select",
+   "label": "Select Volt",
+   "options": "\nVolt AC\nResistance"
+  },
+  {
+   "fieldname": "section_break_ixyt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_zggc",
+   "fieldtype": "Table",
+   "label": "Volt",
+   "options": "Average Values"
+  },
+  {
+   "fieldname": "section_break_zksq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "resistance",
+   "fieldtype": "Table",
+   "label": "Resistance",
+   "options": "Description of Measurement"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-22 18:38:09.662457",
+ "modified_by": "Administrator",
+ "module": "Saeed",
+ "name": "Calibration Request",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
